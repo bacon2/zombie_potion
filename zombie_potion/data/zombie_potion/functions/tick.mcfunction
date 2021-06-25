@@ -1,0 +1,1 @@
+execute as @e[type=villager] at @s if entity @e[type=potion, distance=..2, nbt={Item:{tag:{special:"zombification"}}}] run function zombie_potion:zombify
